@@ -1,0 +1,121 @@
+.section{
+    padding-top: 60px;
+    padding-bottom: 60px;}
+
+    .svg-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 120px;
+    width: 100%;
+    background: var(--white-bg-color);
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.adv-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.adv-title {
+    margin-bottom: 10px;
+    font-weight: 700;
+    line-height: 1.1;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: var(--dark-colortext);
+}
+
+.title-mean {
+    color: var(--grey-colortext);
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+@media screen and (min-width: 768px)
+{ .section{
+        padding-top: 60px;
+        padding-bottom: 60px;}
+    
+.svg-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        height: 120px;
+        width: 100%;
+        background: var(--white-bg-color);
+        border-radius: 4px;
+        margin-bottom: 30px;
+    }
+    
+.adv-list {
+        display: flex;
+        flex-direction:row ;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .adv-item{
+        width: 354px;}
+    
+.adv-title {
+        margin-bottom: 10px;
+        font-weight: 700;
+        line-height: 1.1;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: var(--dark-colortext);
+    }
+    
+.title-mean {
+        color: var(--grey-colortext);
+        font-size: 14px;
+        line-height: 1.7;
+    }
+}
+
+@media screen and (min-width: 1200px)
+{.section {
+    padding-top: 94px;
+    padding-bottom: 94px;}
+    
+.svg-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        height: 120px;
+        width: 100%;
+        background: var(--white-bg-color);
+        border-radius: 4px;
+        margin-bottom: 30px;
+    }
+    
+.adv-list {
+        display: flex;
+        flex-direction:row ;
+        column-gap: 30px;
+    }
+
+    .adv-item{
+        width: 270px;}
+    
+.adv-title {
+        margin-bottom: 10px;
+        font-weight: 700;
+        line-height: 1.1;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: var(--dark-colortext);
+    }
+    
+.title-mean {
+        color: var(--grey-colortext);
+        font-size: 14px;
+        line-height: 1.7;
+    }
+}

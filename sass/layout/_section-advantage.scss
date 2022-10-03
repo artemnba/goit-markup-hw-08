@@ -1,8 +1,4 @@
-.section{
-    padding-top: 60px;
-    padding-bottom: 60px;}
-
-    .svg-icon {
+.svg-icon {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,9 +32,7 @@
 }
 
 @media screen and (min-width: 768px)
-{ .section{
-        padding-top: 60px;
-        padding-bottom: 60px;}
+{
     
 .svg-icon {
         display: flex;
@@ -79,9 +73,7 @@
 }
 
 @media screen and (min-width: 1200px)
-{.section {
-    padding-top: 94px;
-    padding-bottom: 94px;}
+{
     
 .svg-icon {
         display: flex;

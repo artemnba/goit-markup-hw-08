@@ -64,6 +64,12 @@ p {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+@media screen and (max-width: 1199px) {
+  .section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
 
 .container {
   padding-left: 15px;
@@ -403,11 +409,6 @@ p {
   padding-right: 15px;
 }
 
-.section {
-  padding-top: 118px;
-  padding-bottom: 118px;
-}
-
 .section-service {
   background-color: var(--dark-bg-color);
   background-size: cover;
@@ -447,13 +448,15 @@ p {
 }
 
 .overlay {
-  max-width: 767px;
+  max-width: 480px;
   margin: 0 auto;
   background-color: var(--dark-bg-color);
   background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../img/overlay.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  height: 400px;
+  padding: 118 0;
 }
 
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2) and (min-width: 768px), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px), screen and (min-width: 768px) and (min-resolution: 192dpi) and (min-width: 768px), screen and (min-width: 768px) and (min-resolution: 2dppx) and (min-width: 768px) {
@@ -463,10 +466,6 @@ p {
   .container {
     padding-left: 15px;
     padding-right: 15px;
-  }
-  .section {
-    padding-top: 118px;
-    padding-bottom: 118px;
   }
   .section-title {
     color: var(--white-colortext);
@@ -505,15 +504,13 @@ p {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    height: 400px;
+    padding: 118 0;
   }
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2) and (min-width: 768px), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px), screen and (min-width: 1200px) and (min-resolution: 192dpi) and (min-width: 768px), screen and (min-width: 1200px) and (min-resolution: 2dppx) and (min-width: 768px) {
   .section-service {
     background-color: var(--dark-bg-color);
-  }
-  .section {
-    padding-top: 200px;
-    padding-bottom: 200px;
   }
   .section-title {
     color: var(--white-colortext);
@@ -555,13 +552,10 @@ p {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    padding-top: 200px;
+    padding-bottom: 200px;
   }
 }
-.section {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
 .svg-icon {
   display: flex;
   justify-content: center;
@@ -596,10 +590,6 @@ p {
 }
 
 @media screen and (min-width: 768px) {
-  .section {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
   .svg-icon {
     display: flex;
     justify-content: center;
@@ -635,10 +625,6 @@ p {
   }
 }
 @media screen and (min-width: 1200px) {
-  .section {
-    padding-top: 94px;
-    padding-bottom: 94px;
-  }
   .svg-icon {
     display: flex;
     justify-content: center;
@@ -807,8 +793,7 @@ p {
   .card-team {
     display: flex;
     flex-wrap: wrap;
-    -moz-column-gap: 30px;
-         column-gap: 30px;
+    gap: 30px;
   }
   .card-list {
     max-width: 354px;
@@ -1112,8 +1097,6 @@ p {
 
 @media screen and (max-width: 767px) {
   .section {
-    padding-top: 60px;
-    padding-bottom: 60px;
     text-align: center;
   }
   .ourclient {
@@ -1140,6 +1123,7 @@ p {
   }
   .client-item {
     width: calc((100% - 30px) / 2);
+    height: 92px;
   }
   .client-link {
     display: flex;
@@ -1158,10 +1142,6 @@ p {
   }
 }
 @media screen and (min-width: 768px) {
-  .section {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
   .ourclient {
     background-color: var(--body-color);
     margin-top: 0;
@@ -1440,9 +1420,6 @@ p {
     -moz-column-gap: 12px;
          column-gap: 12px;
   }
-  .subscribe-form {
-    width: 100%;
-  }
   .footer-subs {
     display: block;
     font-weight: 700;
@@ -1678,9 +1655,7 @@ p {
   }
   .flex {
     display: flex;
-    justify-content: space-between;
     align-items: baseline;
-    row-gap: unset;
   }
   .subscribe-form {
     width: auto;

@@ -1,8 +1,6 @@
 @media screen  and (max-width: 767px){
 
   .section {
-    padding-top: 60px;
-    padding-bottom: 60px;
     text-align: center;
 }
 .ourclient {
@@ -28,7 +26,9 @@
 gap: 30px;
 }
 .client-item{
-  width: calc((100% - 30px)/2);}
+  width: calc((100% - 30px)/2);
+height: 92px;}
+
 .client-link {
   display: flex;
   align-items: center;
@@ -49,10 +49,7 @@ gap: 30px;
 }
 
 @media screen  and (min-width: 768px)
-{.section {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
+{
   .ourclient {
   background-color: var(--body-color);
   margin-top: 0;
